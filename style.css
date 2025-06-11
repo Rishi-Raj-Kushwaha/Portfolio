@@ -1,0 +1,457 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: rgb(153, 0, 255);
+    color: white;
+}
+
+
+.inconsolata {
+  font-family: "Inconsolata", monospace;
+  
+}
+
+.left{
+    display: flex;
+    font-size: 1.8rem;
+    justify-content: space-around;
+    padding: 22px;
+    font-weight: 600;
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    list-style-type: none;
+    height: 75px;
+    margin: 30px 0px;
+}
+
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    margin: 10px 0px;
+    font-size: 1rem;
+}
+
+nav ul li {
+        list-style-type: none;
+        margin: 20px 20px;
+        font-size: 1rem;
+        font-weight: 600
+}
+.navA{
+  text-decoration: none;
+  color: white;
+}
+nav ul li .navA:hover {
+    font-size: 1.2rem;
+    color: rgb(149, 207, 209);
+    cursor: pointer;
+
+}
+
+
+
+.firstSection{
+    display: flex;
+    justify-content: space-around;
+    margin: 71px px;
+    
+
+
+}
+
+.leftSection{
+    display: flex;
+    justify-content: space-around;
+    height: auto;
+    width: 71%;
+    font-size: 4rem;
+    margin: 47px;
+    margin-top: 200px;
+    color: #e6e6e6;
+}
+
+.span{
+  font-size: 4rem;
+}
+
+
+.rightSection {
+    display: flex;
+    justify-content: space-around;
+    width: 35%;
+    height: auto;
+    margin: 0px 0;
+
+}
+
+img{
+    width: 470px;
+    height: auto;
+}
+
+
+
+
+
+hr{
+    /* width: 90%; */
+    border: 0;
+    background: rgb(0, 0, 0);
+    height: 1.5px;
+    margin: 40px 0px;
+
+}
+
+
+
+
+
+
+/*  About section */
+
+.secendSection{
+  padding: 20px; 
+  display: flex;
+  justify-content: space-around;
+  margin: 71px px;
+
+
+}
+
+.About{
+  padding: 20px 0px;
+}
+
+.a {
+  text-decoration: none;
+  color: white;
+}
+.foot{
+  background-color: rgb(127, 3, 209);
+}
+.image-container {
+  background-color: rgb(127, 3, 209);
+  display: flex;
+  flex-wrap: wrap; /* Allows flexibility for smaller screens */
+  align-items: center;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 15px 15px 8px rgb(77, 0, 128);
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.image {
+  /* flex: 1 1 200px; Makes image flexibly resizeable */
+  width: 350px;
+  height: auto; 
+  
+  padding: 50px;
+}
+
+.image-info {
+  padding: 50px 40px;
+  flex: 1 1 300px; /* Adjust flex properties */
+}
+
+.image-info h3 {
+  padding-top: 0px;
+  text-align: center;
+  margin: 0;
+  color: #ffffff;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: xx-large;
+}
+
+.image-info p {
+  margin: 5px 0 0;
+  color: #ffffff;
+}
+.about{
+  color: #ffffff; 
+  font-family: 'Times New Roman', Times, serif; 
+  padding-right: 20px; 
+  padding-left: 20px;
+  padding-bottom: 10px;
+  font-size: 19px;
+}
+
+@media (max-width: 768px) {
+  .image-container {
+    flex-direction: column; /* Stack image and text vertically */
+    justify-content: space-around;
+  }
+
+  .image {
+    width: 80%;
+    height: auto;
+    flex: 1 1 auto; /* Adjust image size for smaller screens */
+  }
+
+  .image-info {
+    text-align: center; /* Center-align text for smaller screens */
+    flex: 1 1 auto;
+  }
+}
+
+
+
+/* Service */
+
+.service{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 75px 0px;
+}
+
+.projectName{
+  margin: 75px 0px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: xx-large;
+  width: 100%;
+}
+
+.projectInGroup{
+  margin-top: -47px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: xx-large;
+  width: 100%;
+  
+}
+
+.project{
+    border: 1px solid rgb(77, 0, 128);
+
+  font-size: 1.1rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 90px 10px;
+}
+
+.project:hover{
+    font-size: 1.2rem;
+    color: #e4e1e1;
+}
+.project h4{
+  margin: 100px 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.contact {
+  padding: 20px 20px;
+  text-align: center;
+  margin: 0px 0;
+}
+
+.Contact_Me{
+  font-size: xx-large;
+  margin-top: 75px;
+  margin-bottom: 40px;
+}
+
+/* General styling for the form */
+.form {
+  background-color: rgb(127, 3, 209);
+  padding: 80px;
+  border-radius: 20px;
+  max-width: 600px;
+  margin: auto;
+  box-shadow: 15px 15px 8px rgb(77, 0, 128);
+  font-family: Arial, sans-serif;
+}
+
+.form h2 {
+  text-align: center;
+  color: rgb(52, 0, 112);
+}
+
+/* Form labels and inputs styling */
+.form label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.form input, .form textarea {
+  width: 100%;
+  padding: 10px;
+  background-color: antiquewhite;
+  margin-bottom: 15px;
+  border: 2px solid rgb(52, 0, 112);
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
+.form input:focus, .form textarea:focus {
+  border-color: rgb(3, 0, 7);
+  outline: none;
+  box-shadow: 2px 2px 5px rgb(52, 0, 112);
+}
+
+
+  /* Button styling */
+  .form .btn {
+    display: block;
+    padding: 100px 20px;
+    width: 100%;
+    text-align: center;
+    padding: 16px;
+    background-color: rgb(77, 0, 128);
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    color: white;
+  }
+
+  .form .btn:hover {
+    background-color: rgb(50, 1, 83);
+    color: white;
+
+  }
+
+
+  
+footer {
+  text-align: center;
+  padding: 1px;
+  font-size: 1rem;
+}
+
+
+
+
+@media (max-width: 768px) {
+  body{
+    display: flex;
+    flex-direction: column
+  }
+
+
+  nav ul {
+    flex-direction: column;
+  }
+  .firstSection{
+      flex-direction: column-reverse;
+      margin-top: 20px;
+      
+  }
+  .span{
+    font-size: 2rem;
+  }
+  .leftSection{
+        margin-top: 75px;
+        font-size: 1.5rem;
+  }
+  .rightSection{
+    width: 88%;
+    height: auto;
+  }
+
+  img {
+    margin: 2% 2%;
+   width: 350px; 
+   height: auto;
+  }
+  .projectInGroup{
+    flex-direction: column;
+    align-items: stretch
+  }
+  .image-container{
+    width: 85%;
+    flex-direction: column; /* Stack image and text vertically */
+    justify-content: space-around;
+
+  }
+
+  .secendSection{
+    padding: 0;
+  }
+
+
+    .image-info {
+    text-align: center; /* Center-align text for smaller screens */
+    flex: 1 1 auto;
+  }
+
+
+    .image{
+    width: 46%;
+    display: flex;
+    height: auto;
+    flex: 1 1 auto; /* Adjust image size for smaller screens */
+  }
+  .service{
+    margin: 44px 0px;
+  }
+  .Contact_Me{
+      margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .contact{
+      margin: 0px 0px;
+  }
+  .project{
+      margin: 20px 22px;
+  }
+
+
+  nav ul{
+    flex-direction: row;
+    width: 100%;
+
+}
+nav ul li {
+  padding: 0px;
+  justify-content: space-around;
+  margin: 4px 4px;
+
+}
+
+nav{
+  flex-direction: column;
+  height: 121px;
+}
+.left{
+  width:88%;
+  margin: 0px;
+}
+.right{
+  width:100%;
+  margin: 0px;
+}
+main{
+  margin-top: 0px;
+}
+}
